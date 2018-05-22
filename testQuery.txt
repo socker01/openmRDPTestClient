@@ -1,0 +1,6 @@
+IDENTIFY ?material WHERE
+?material <loc:locatedIn> ?room
+?material rdf:type mat:inflammableThing
+urn:uuid:drill1 <loc:locatedIn> ?room
+urn:uuid:drill1 task:drilling ?sur
+?sur rdf:type mat:metallicThing
